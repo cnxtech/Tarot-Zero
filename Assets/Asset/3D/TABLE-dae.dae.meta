@@ -1,0 +1,241 @@
+fileFormatVersion: 2
+guid: 6b938bce0928c0440b34e288a6183f72
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Cap_1
+    100002: Cap_1 1
+    100004: Cap_1 2
+    100006: Cap_1 3
+    100008: Cap_1 4
+    100010: Cap_1 5
+    100012: Cap_2
+    100014: Cap_2 1
+    100016: Cap_2 2
+    100018: Cap_2 3
+    100020: Cap_2 4
+    100022: Cap_2 5
+    100024: Extrude_NURBS
+    100026: Extrude_NURBS.1
+    100028: Extrude_NURBS.2
+    100030: Extrude_NURBS.3
+    100032: Extrude_NURBS.5
+    100034: Extrude_NURBS.6
+    100036: Rounding_1
+    100038: Rounding_1 1
+    100040: Rounding_1 2
+    100042: Rounding_1 3
+    100044: Rounding_1 4
+    100046: Rounding_1 5
+    100048: Rounding_2
+    100050: Rounding_2 1
+    100052: Rounding_2 2
+    100054: Rounding_2 3
+    100056: Rounding_2 4
+    100058: Rounding_2 5
+    100060: //RootNode
+    400000: Cap_1
+    400002: Cap_1 1
+    400004: Cap_1 2
+    400006: Cap_1 3
+    400008: Cap_1 4
+    400010: Cap_1 5
+    400012: Cap_2
+    400014: Cap_2 1
+    400016: Cap_2 2
+    400018: Cap_2 3
+    400020: Cap_2 4
+    400022: Cap_2 5
+    400024: Extrude_NURBS
+    400026: Extrude_NURBS.1
+    400028: Extrude_NURBS.2
+    400030: Extrude_NURBS.3
+    400032: Extrude_NURBS.5
+    400034: Extrude_NURBS.6
+    400036: Rounding_1
+    400038: Rounding_1 1
+    400040: Rounding_1 2
+    400042: Rounding_1 3
+    400044: Rounding_1 4
+    400046: Rounding_1 5
+    400048: Rounding_2
+    400050: Rounding_2 1
+    400052: Rounding_2 2
+    400054: Rounding_2 3
+    400056: Rounding_2 4
+    400058: Rounding_2 5
+    400060: //RootNode
+    2100000: Mat
+    2300000: Cap_1
+    2300002: Cap_1 1
+    2300004: Cap_1 2
+    2300006: Cap_1 3
+    2300008: Cap_1 4
+    2300010: Cap_1 5
+    2300012: Cap_2
+    2300014: Cap_2 1
+    2300016: Cap_2 2
+    2300018: Cap_2 3
+    2300020: Cap_2 4
+    2300022: Cap_2 5
+    2300024: Extrude_NURBS
+    2300026: Extrude_NURBS.1
+    2300028: Extrude_NURBS.2
+    2300030: Extrude_NURBS.3
+    2300032: Extrude_NURBS.5
+    2300034: Extrude_NURBS.6
+    2300036: Rounding_1
+    2300038: Rounding_1 1
+    2300040: Rounding_1 2
+    2300042: Rounding_1 3
+    2300044: Rounding_1 4
+    2300046: Rounding_1 5
+    2300048: Rounding_2
+    2300050: Rounding_2 1
+    2300052: Rounding_2 2
+    2300054: Rounding_2 3
+    2300056: Rounding_2 4
+    2300058: Rounding_2 5
+    3300000: Cap_1
+    3300002: Cap_1 1
+    3300004: Cap_1 2
+    3300006: Cap_1 3
+    3300008: Cap_1 4
+    3300010: Cap_1 5
+    3300012: Cap_2
+    3300014: Cap_2 1
+    3300016: Cap_2 2
+    3300018: Cap_2 3
+    3300020: Cap_2 4
+    3300022: Cap_2 5
+    3300024: Extrude_NURBS
+    3300026: Extrude_NURBS.1
+    3300028: Extrude_NURBS.2
+    3300030: Extrude_NURBS.3
+    3300032: Extrude_NURBS.5
+    3300034: Extrude_NURBS.6
+    3300036: Rounding_1
+    3300038: Rounding_1 1
+    3300040: Rounding_1 2
+    3300042: Rounding_1 3
+    3300044: Rounding_1 4
+    3300046: Rounding_1 5
+    3300048: Rounding_2
+    3300050: Rounding_2 1
+    3300052: Rounding_2 2
+    3300054: Rounding_2 3
+    3300056: Rounding_2 4
+    3300058: Rounding_2 5
+    4300000: Extrude_NURBS.3
+    4300002: Rounding_1
+    4300004: Cap_1
+    4300006: Rounding_2
+    4300008: Cap_2
+    4300010: Extrude_NURBS
+    4300012: Rounding_1
+    4300014: Cap_1
+    4300016: Rounding_2
+    4300018: Cap_2
+    4300020: Extrude_NURBS.6
+    4300022: Rounding_1
+    4300024: Cap_1
+    4300026: Rounding_2
+    4300028: Cap_2
+    4300030: Extrude_NURBS.5
+    4300032: Rounding_1
+    4300034: Cap_1
+    4300036: Rounding_2
+    4300038: Cap_2
+    4300040: Extrude_NURBS.1
+    4300042: Rounding_1
+    4300044: Cap_1
+    4300046: Rounding_2
+    4300048: Cap_2
+    4300050: Extrude_NURBS.2
+    4300052: Rounding_1
+    4300054: Cap_1
+    4300056: Rounding_2
+    4300058: Cap_2
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

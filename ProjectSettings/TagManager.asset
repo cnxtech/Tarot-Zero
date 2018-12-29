@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Main
+  - Suerte
+  - Compras
+  - Card5DLC1(Clone)
+  - Card8DLC1(Clone)
+  - Card7DLC1(Clone)
+  - Suerte(Clone)
+  - Card4DLC1(Clone)
+  - Card Back (4)(Clone)
+  - Mago(Clone)
+  - Abduccion(Clone)
+  - Rosa Negrs(Clone)
+  - Card2DLC1(Clone)
+  - Card6DLC1(Clone)
+  - Carga(Clone)
+  - Card Back(Clone)
+  - Card Back (7)(Clone)
+  - Diablo(Clone)
+  - Card3DLC1(Clone)
+  - Card Back (1)(Clone)
+  - Card Back (3)(Clone)
+  - Card Back (6)(Clone)
+  - Card Back (2)(Clone)
+  - CardDLC1(Clone)
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Background
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3703972123
+    locked: 0
