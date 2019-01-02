@@ -40,7 +40,24 @@ GameObject:
   - component: {fileID: 222279555865161162}
   - component: {fileID: 114553259581340890}
   m_Layer: 5
-  m_Name: Glass
+  m_Name: MoreGlass
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!1 &1367909204993286
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 224015765750521170}
+  - component: {fileID: 222789349513170744}
+  - component: {fileID: 114067811790917664}
+  m_Layer: 5
+  m_Name: Black
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -114,6 +131,32 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!114 &114067811790917664
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1367909204993286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -98529514, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Texture: {fileID: 0}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
 --- !u!114 &114084722234445030
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -244,14 +287,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.59982157, b: 0, a: 0.8039216}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.8039216}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Texture: {fileID: 2800000, guid: 472f5c394a0e0384f83e5c40b32ce4f8, type: 3}
+  m_Texture: {fileID: 2800000, guid: c5f4fab686efca944bf91df76a444373, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -319,6 +362,31 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1064628921240872}
   m_CullTransparentMesh: 0
+--- !u!222 &222789349513170744
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1367909204993286}
+  m_CullTransparentMesh: 0
+--- !u!224 &224015765750521170
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1367909204993286}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224864092128422538}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.3, y: -0.5}
+  m_SizeDelta: {x: 261.5, y: 348.8}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224405491905766062
 RectTransform:
   m_ObjectHideFlags: 1
@@ -330,12 +398,12 @@ RectTransform:
   m_LocalScale: {x: 0.99955463, y: 0.99955463, z: 0.99955463}
   m_Children: []
   m_Father: {fileID: 224864092128422538}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00017309189, y: -0.0000004172325}
-  m_SizeDelta: {x: 245.45, y: 327.3}
+  m_AnchoredPosition: {x: 0.6, y: -0.6}
+  m_SizeDelta: {x: 248.5, y: 338.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224422228604503170
 RectTransform:
@@ -343,17 +411,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1322831728455688}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.9995546, y: 0.9995546, z: 0.9995546}
   m_Children: []
   m_Father: {fileID: 224864092128422538}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.12, y: -0.72}
-  m_SizeDelta: {x: 248, y: 330.8}
+  m_AnchoredPosition: {x: 0, y: -0.7}
+  m_SizeDelta: {x: 244.4, y: 332.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224760973049148392
 RectTransform:
@@ -366,7 +434,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 224864092128422538}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -383,10 +451,11 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 224015765750521170}
   - {fileID: 224405491905766062}
   - {fileID: 224993803255310556}
-  - {fileID: 224950740234981650}
   - {fileID: 224422228604503170}
+  - {fileID: 224950740234981650}
   - {fileID: 224760973049148392}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -407,7 +476,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 224864092128422538}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -425,10 +494,10 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 224864092128422538}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00016048, y: 0}
-  m_SizeDelta: {x: 245.45, y: 327.3}
+  m_AnchoredPosition: {x: 0.9, y: -0.4}
+  m_SizeDelta: {x: 248.4, y: 338.2}
   m_Pivot: {x: 0.5, y: 0.5}
