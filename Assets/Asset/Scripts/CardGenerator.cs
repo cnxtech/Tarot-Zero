@@ -56,11 +56,13 @@ public class CardGenerator : MonoBehaviour {
 
     public void InitializeStopCardDelays()
     {
+        // When a card stops it takes this variable seconds to stop the next card
+        float delayCardStopGap = 6f;
         stopCardDelays = new Interpolation[slots.Count];
-        var startDuration = shuffleTime * .9f  - (slots.Count - 1) * 3;
+        var startDuration = Mathf.Max(shuffleTime * .9f  - (slots.Count - 1) * delayCardStopGap, 0);
         for (int i = 0; i < slots.Count; i++)
         {
-            var interpDuration = startDuration + i * 3f;
+            var interpDuration = startDuration + i * delayCardStopGap;
             var interp = new Interpolation(interpDuration);
             interp.AddKeyFrame(0, hideCardSpeed);
             interp.AddKeyFrame(interpDuration * .6f, hideCardSpeed);
@@ -211,7 +213,7 @@ public class CardGenerator : MonoBehaviour {
         var grainEffect = new Interpolation(shuffleTime);
         grainEffect.AddKeyFrame(new Interpolation.KeyFrame(0, profile.grain.settings.intensity));
         grainEffect.AddKeyFrame(new Interpolation.KeyFrame(.5f, .3f));
-        grainEffect.AddKeyFrame(new Interpolation.KeyFrame(shuffleTime * .96f, 1f));
+        grainEffect.AddKeyFrame(new Interpolation.KeyFrame(shuffleTime * .96f, .6f));
         grainEffect.AddKeyFrame(new Interpolation.KeyFrame(shuffleTime, profile.grain.settings.intensity));
         grainEffect.FrameCallback += (kf) =>
         {
