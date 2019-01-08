@@ -24,7 +24,7 @@ public class CardSlot : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        if (cards == null) throw new System.Exception("Forgot to set cards reference");
+        if (cards == null) Debug.LogWarning("Forgot to set cards reference on this object ("+name+")");
         CardImage = GetComponent<RawImage>();
 	}
 	

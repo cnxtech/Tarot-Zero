@@ -46,7 +46,8 @@ namespace OnePF
             _billing = new OpenIAB_WP8();
             Debug.Log("********** WP8 OpenIAB plugin initialized **********");
 #else
-			Debug.LogError("OpenIAB billing currently not supported on this platform. Sorry.");
+            // Modified from LogError to LogWarning while editing on pc
+			Debug.LogWarning("OpenIAB billing currently not supported on this platform. Sorry.");
 #endif
         }
 
@@ -58,7 +59,14 @@ namespace OnePF
          */ 
         public static void mapSku(string sku, string storeName, string storeSku)
         {
-            _billing.mapSku(sku, storeName, storeSku);
+            try
+            {
+                _billing.mapSku(sku, storeName, storeSku);
+            }
+            catch (Exception e)
+            {
+                Debug.LogWarning(e);
+            }
         }
 
         /**
@@ -67,7 +75,9 @@ namespace OnePF
          */
         public static void init(Options options)
         {
+#if UNITY_WP8 || UNITY_IOS || UNITY_ANDROID
             _billing.init(options);
+#endif
         }
 
         /**
