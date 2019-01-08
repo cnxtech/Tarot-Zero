@@ -146,7 +146,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -88, y: -35.347}
+  m_AnchoredPosition: {x: -88, y: -35.346985}
   m_SizeDelta: {x: -343.7, y: -133.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &91030416
@@ -8319,7 +8319,7 @@ MonoBehaviour:
   - {fileID: 2069657696}
   - {fileID: 355270381}
   cards: {fileID: 1884191685}
-  shuffleTime: 8
+  shuffleTime: 11
   hideCardSpeed: 0.07
 --- !u!4 &2142530729
 Transform:
