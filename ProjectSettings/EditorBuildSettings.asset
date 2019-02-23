@@ -6,27 +6,27 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Titulo.unity
-    guid: 00000000000000000000000000000000
+    path: Assets/Warning.unity
+    guid: 43e3428899a312345b1612d6347c877f
   - enabled: 1
-    path: Assets/Advertencia.unity
-    guid: 00000000000000000000000000000000
+    path: Assets/Menu.unity
+    guid: be63695203fa160448ac1b6a3e03bf1f
   - enabled: 1
     path: Assets/Desarrolladores.unity
-    guid: 00000000000000000000000000000000
+    guid: e24a7f96ea53da149a1704a486b7d0e6
   - enabled: 1
-    path: Assets/LevelMain.unity
-    guid: 00000000000000000000000000000000
+    path: Assets/Play.unity
+    guid: 159d82ca84391e243af0d8db7f48ad2d
   - enabled: 1
-    path: Assets/Expansiones.unity
-    guid: 00000000000000000000000000000000
+    path: Assets/Expansions.unity
+    guid: 9cdbad5d080cd734db9ed7713393ad8e
   - enabled: 1
-    path: Assets/Instrucciones.unity
-    guid: 00000000000000000000000000000000
+    path: Assets/Instructions.unity
+    guid: 98a58575243d7a2438f61a526bb1a429
   - enabled: 1
     path: Assets/Actualizaciones.unity
-    guid: 00000000000000000000000000000000
+    guid: f44296f2c13d4f742be9ff52802fe75e
   - enabled: 1
     path: Assets/Recorder.unity
-    guid: 00000000000000000000000000000000
+    guid: 121b5149283738c47bbd5498ee7ff681
   m_configObjects: {}
