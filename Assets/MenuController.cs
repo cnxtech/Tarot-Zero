@@ -5,19 +5,30 @@ using UnityEngine.SceneManagement;
 public class MenuController : MonoBehaviour {
 
 
+	FadeEffect fadeEffect;
+
+	void Start()
+	{
+		fadeEffect = (FadeEffect)FindObjectOfType(typeof(FadeEffect));
+	}
+
     public void Play()
     {
-        SceneManager.LoadSceneAsync("Play");
-    }
+		fadeEffect.LoadScene("Play");
+		//fadeEffect.Show(SceneManager.LoadSceneAsync("Play"));
+	}
 
     public void Instructions()
     {
-        SceneManager.LoadSceneAsync("Instructions");
-    }
+		fadeEffect.LoadScene("Instructions");
 
-    public void Expansions()
+		//fadeEffect.Show(SceneManager.LoadSceneAsync("Instructions"));
+	}
+
+	public void Expansions()
     {
-        SceneManager.LoadSceneAsync("Expansions");
+		fadeEffect.LoadScene("Expansions");
+		//fadeEffect.Show(SceneManager.LoadSceneAsync("Expansions"));
     }
 
     public void Exit()
